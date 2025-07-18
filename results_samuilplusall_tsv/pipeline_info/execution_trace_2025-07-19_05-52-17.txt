@@ -1,0 +1,2 @@
+task_id	hash	native_id	name	status	exit	submit	duration	realtime	%cpu	peak_rss	peak_vmem	rchar	wchar
+1	11/29a29c	23621	POPPIPE_SNP_ANALYSIS:PARSE_POPPIPE_OUTPUT (PopPIPE output parsing)	COMPLETED	0	2025-07-19 05:52:21.516	661ms	398ms	510.9%	7.4 MB	13.3 MB	9.6 MB	733.9 KB

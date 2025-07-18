@@ -1,0 +1,150 @@
+<!--
+  ~ Copyright 2013-2024, Seqera Labs
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<html>
+<head>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<pre class="mermaid" style="text-align: center;">
+%%{
+  init: {
+    'theme': 'base',
+    'themeVariables': {
+      'primaryColor': '#B6ECE2',
+      'primaryTextColor': '#160F26',
+      'primaryBorderColor': '#065647',
+      'lineColor': '#545555',
+      'clusterBkg': '#BABCBD22',
+      'clusterBorder': '#DDDEDE',
+      'fontFamily': 'arial'
+    }
+  }
+}%%
+flowchart TB
+    subgraph " "
+    v3["poppipe_output_dir"]
+    v4["input_source"]
+    v12["snp_package"]
+    v23["reference_file"]
+    v65["poppipe_output_dir"]
+    end
+    subgraph "POPPIPE_SNP_ANALYSIS [POPPIPE_SNP_ANALYSIS]"
+    v5(["PARSE_POPPIPE_OUTPUT"])
+    subgraph "POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS [CLUSTER_SNP_ANALYSIS]"
+    v16(["INFILE_HANDLING_UNIX"])
+    v28(["CORE_GENOME_ALIGNMENT_PARSNP"])
+    v32(["CONVERT_GINGR_TO_FASTA_HARVESTTOOLS"])
+    v36(["CALCULATE_PAIRWISE_DISTANCES_SNP_DISTS"])
+    v39(["CREATE_SNP_DISTANCE_MATRIX_SNP_DISTS"])
+    subgraph "POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:RECOMBINATION [RECOMBINATION]"
+    v45(["RECOMBINATION_GUBBINS"])
+    v47(( ))
+    v48(( ))
+    end
+    v51(["MASK_RECOMBINANT_POSITIONS_BIOPYTHON"])
+    v54(["CREATE_MASKED_SNP_DISTANCE_MATRIX_SNP_DISTS"])
+    v57(["BUILD_PHYLOGENETIC_TREE_PARSNP"])
+    v13(( ))
+    v18(( ))
+    v19(( ))
+    v20(( ))
+    v50(( ))
+    end
+    v66(["TREE_GRAFT"])
+    v6(( ))
+    v7(( ))
+    v62(( ))
+    v63(( ))
+    end
+    subgraph " "
+    v17[" "]
+    v29[" "]
+    v33[" "]
+    v37[" "]
+    v40[" "]
+    v46[" "]
+    v52[" "]
+    v55[" "]
+    v58[" "]
+    v76["ch_output_summary_files"]
+    v79[" "]
+    end
+    v3 --> v5
+    v4 --> v5
+    v5 --> v66
+    v5 --> v6
+    v5 --> v7
+    v5 --> v62
+    v12 --> v13
+    v13 --> v16
+    v16 --> v17
+    v16 --> v18
+    v16 --> v19
+    v16 --> v20
+    v23 --> v20
+    v20 --> v28
+    v28 --> v32
+    v28 --> v29
+    v28 --> v36
+    v28 --> v39
+    v28 --> v45
+    v28 --> v18
+    v28 --> v19
+    v32 --> v45
+    v32 --> v33
+    v32 --> v18
+    v32 --> v19
+    v32 --> v50
+    v36 --> v37
+    v36 --> v18
+    v36 --> v62
+    v39 --> v40
+    v39 --> v18
+    v39 --> v62
+    v45 --> v46
+    v45 --> v47
+    v45 --> v48
+    v48 --> v51
+    v50 --> v51
+    v51 --> v54
+    v51 --> v52
+    v51 --> v57
+    v51 --> v18
+    v54 --> v55
+    v54 --> v18
+    v54 --> v62
+    v57 --> v58
+    v57 --> v18
+    v57 --> v19
+    v57 --> v63
+    v65 --> v66
+    v63 --> v66
+    v66 --> v6
+    v66 --> v62
+    v62 --> v76
+    v6 --> v79
+    v18 --> v6
+    v7 --> v13
+    v47 --> v18
+    v19 --> v62
+
+</pre>
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true, maxTextSize: Number.MAX_SAFE_INTEGER, maxEdges: Number.MAX_SAFE_INTEGER });
+</script>
+</body>
+</html>
