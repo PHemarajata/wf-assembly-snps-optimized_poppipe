@@ -1,0 +1,6 @@
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCA_900598595_2.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_001327555_2_Thailand.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_900597555_1_Thailand.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCA_963571925_1.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_900598595_2_Thailand.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCA_001327555_2.fasta
