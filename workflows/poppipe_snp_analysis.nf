@@ -145,7 +145,8 @@ workflow POPPIPE_SNP_ANALYSIS {
     // The input can be either a TSV file (rfiles.txt) or a directory
     PARSE_POPPIPE_OUTPUT (
         ch_poppipe_output,
-        ch_input
+        ch_input,
+        Channel.value(params.input)  // Pass original input path for relative path resolution
     )
     ch_versions = ch_versions.mix(PARSE_POPPIPE_OUTPUT.out.versions)
 

@@ -22,7 +22,32 @@ process INFILE_HANDLING_UNIX {
         filename_no_gz.toLowerCase().endsWith('.' + ext) 
     } ?: filename_no_gz.split('\\.')[-1]
     '''
-    source bash_functions.sh
+    # Define bash functions inline
+    msg() {
+      echo "[$(date '+%Y-%b-%d %a %H:%M:%S')] $@"
+    }
+
+    verify_minimum_file_size() {
+      # Boolean test to ensure the filepath is a file, is non-zero size, and
+      #  is at least the minimum specified size (in Bytes).
+      # Parameters: $1=filename, $2=file description, $3=minimum size
+      if [ -f "${1}" ]; then
+        if [ -s "${1}" ]; then
+          if [[ $(find -L "${1}" -type f -size +"${3}") ]]; then
+            return 0
+          else
+            msg "ERROR: ${2} file $(basename ${1}) present but too small (less than ${3})" >&2
+            return 1
+          fi
+        else
+          msg "ERROR: ${2} file $(basename ${1}) present but empty" >&2
+          return 1
+        fi
+      else
+        msg "ERROR: ${2} file $(basename ${1}) absent" >&2
+        return 1
+      fi
+    }
 
     # Rename input files to prefix and move to inputfiles dir
     mkdir inputfiles
