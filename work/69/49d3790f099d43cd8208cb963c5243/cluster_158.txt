@@ -1,0 +1,6 @@
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_001887575_1_Australia.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_000756065_1_Australia.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_000714875_1_Australia.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_001887555_1_Australia.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_000452965_1_Australia.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_000755965_1_Australia.fasta

@@ -1,0 +1,7 @@
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_027946755_1_Malaysia.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_001980585_2_Malaysia.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_001980605_1_Malaysia.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_001980655_1_Malaysia.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_028201395_1_Malaysia.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_001980675_1_Malaysia.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_000961535_1_Malaysia_Sarawak_Kapit_Hospital.fasta

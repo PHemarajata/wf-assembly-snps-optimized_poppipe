@@ -1,0 +1,6 @@
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_001980385_1_Australia_Northern_Territory.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_001980425_1_Australia_Northern_Territory.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_001980465_1_Australia_Northern_Territory.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_001980485_1_Australia_Northern_Territory.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_001980435_1_Australia_Northern_Territory.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_001980395_1_Australia_Northern_Territory.fasta

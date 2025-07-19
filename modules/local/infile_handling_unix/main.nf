@@ -62,16 +62,30 @@ process INFILE_HANDLING_UNIX {
     
     file_count=0
     for file in inputfiles/*; do
+      # Check if the glob matched any files
+      if [ ! -e "${file}" ]; then
+        msg "No files found in inputfiles directory"
+        break
+      fi
+      
       ((file_count++))
-      msg "Processing file ${file_count}: $(basename ${file})"
+      
+      # Safely get basename
+      local filename
+      filename=$(basename "${file}" 2>/dev/null || echo "unknown_file")
+      msg "Processing file ${file_count}: ${filename}"
       
       if verify_minimum_file_size "${file}" 'Input' "!{params.min_input_filesize}"; then
-        echo -e "$(basename ${file%%.*})\tInput File\tPASS" \
+        local base_name
+        base_name=$(basename "${file%%.*}" 2>/dev/null || echo "unknown")
+        echo -e "${base_name}\tInput File\tPASS" \
         >> "!{meta.id}.Initial_Input_File.tsv"
       else
-        echo -e "$(basename ${file%%.*})\tInput File\tFAIL" \
+        local base_name
+        base_name=$(basename "${file%%.*}" 2>/dev/null || echo "unknown")
+        echo -e "${base_name}\tInput File\tFAIL" \
         >> "!{meta.id}.Initial_Input_File.tsv"
-        rm ${file}
+        rm "${file}"
       fi
     done
     

@@ -1,0 +1,10 @@
++ mkdir inputfiles
++ cp ERS013358.fasta inputfiles/1_ERS013358.fasta
++ find -L inputfiles/ -type f -name '*.[gG][zZ]' -exec gunzip -f '{}' +
++ msg 'Checking input file sizes for sample 1_ERS013358..'
+++ date '+%Y-%b-%d %a %H:%M:%S'
++ echo '[2025-Jul-19 Sat 00:32:15] Checking input file sizes for sample 1_ERS013358..'
++ echo -e 'Sample name	QC step	Outcome (Pass/Fail)'
++ file_count=0
++ for file in inputfiles/*
++ (( file_count++ ))

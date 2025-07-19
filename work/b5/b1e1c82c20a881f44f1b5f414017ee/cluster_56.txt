@@ -1,0 +1,9 @@
+/home/phemarajata/Downloads/PopPIPE-bp/GCF_002111145_1_USA_Arizona_ex_Costa_Rica.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_900593105_1_Thailand.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCA_963561105_1.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCA_963562015_1.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_900598305_2_Thailand.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCA_963564295_1.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCA_963567245_1.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCA_963568595_1.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_900596085_1_Thailand.fasta
