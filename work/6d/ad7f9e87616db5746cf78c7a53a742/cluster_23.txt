@@ -1,0 +1,7 @@
+/home/phemarajata/Downloads/PopPIPE-bp/IP-0045.fasta
+/home/phemarajata/Downloads/PopPIPE-bp/IP-0157.fasta
+/home/phemarajata/Downloads/PopPIPE-bp/IP-0166.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_003798365_1_Thailand_Ubon_Ratchathani.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_001976545_1_Thailand.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCA_963566375_1.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_001327415_1_United_Kingdom.fasta

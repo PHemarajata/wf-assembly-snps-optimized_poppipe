@@ -1,0 +1,10 @@
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_900598315_1_Thailand.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/SRR12527881-SPAdes.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/SRR12527882-SPAdes.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_028620425_1_missing.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/SRR12527880-SPAdes.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_001611585_1_Portugal_Lisbon.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCA_963571595_1.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_001979435_1_unknown.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_028621445_1_missing.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_001445855_1_missing.fasta

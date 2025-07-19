@@ -1,0 +1,14 @@
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_001978745_1_Australia_Northern_Territory.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_001978785_1_Australia_Northern_Territory.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_002888055_1_Australia.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_001978765_1_Australia_Northern_Territory.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_001979905_1_Australia_Northern_Territory.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_001979975_1_Australia_Northern_Territory.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_000520895_1_Australia.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_000511915_1_Australia.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_001978795_1_Australia_Northern_Territory.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_001445985_1_missing.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_001979945_1_Australia_Northern_Territory.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_000521645_1_Australia.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_001978365_1_Australia_Northern_Territory.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_002888045_1_Australia.fasta

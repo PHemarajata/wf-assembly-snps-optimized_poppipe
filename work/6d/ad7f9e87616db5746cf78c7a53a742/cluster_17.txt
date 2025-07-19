@@ -1,0 +1,8 @@
+/home/phemarajata/Downloads/PopPIPE-bp/GCF_014713065_1_Laos.fasta
+/home/phemarajata/Downloads/PopPIPE-bp/GCF_014712965_1_Laos.fasta
+/home/phemarajata/Downloads/PopPIPE-bp/GCF_014712955_1_Laos.fasta
+/home/phemarajata/Downloads/PopPIPE-bp/GCF_014713025_1_Laos.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/SRR11097774-SPAdes.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/SRR11097777-SPAdes.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/SRR11097778-SPAdes.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/SRR11097773-SPAdes.fasta

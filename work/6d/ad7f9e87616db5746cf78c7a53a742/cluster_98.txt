@@ -1,0 +1,9 @@
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_003813945_1_Puerto_Rico_ARECIBO.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_003813825_1_Puerto_Rico_Arecibo.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_002110965_1_USA_Florida_ex_Trinidad.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_003854325_1_Puerto_Rico_Arecibo.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_002111265_1_USA_Puerto_Rico.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_002111065_1_USA_Puerto_Rico.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_003944665_1_Puerto_Rico_Arecibo.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_002111025_1_USA_Puerto_Rico.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_003858035_1_Puerto_Rico_Arecibo.fasta

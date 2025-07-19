@@ -1,0 +1,9 @@
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_002921005_1_Malaysia.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_002920945_1_Malaysia.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_025000275_1_Malaysia_Pahang.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_002920995_1_Malaysia.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_002921015_1_Malaysia.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_001695715_1_Malaysia.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_025367655_1_Malaysia_Pahang.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_002921055_1_Malaysia.fasta
+/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_025290865_1_Malaysia_Pahang.fasta

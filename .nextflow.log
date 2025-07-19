@@ -1,46 +1,46 @@
-Jul-19 23:35:18.801 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf -profile docker --poppipe_output /home/phemarajata/Downloads/PopPIPE-bp/output_with_samui_final --input /home/phemarajata/Downloads/PopPIPE-bp/combined_rfile.txt --outdir results_samuilplusall_tsv --snp_package parsnp
-Jul-19 23:35:18.900 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 25.04.4
-Jul-19 23:35:18.941 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/phemarajata/.nextflow/plugins; core-plugins: nf-amazon@2.15.0,nf-azure@1.16.0,nf-cloudcache@0.4.3,nf-codecommit@0.2.3,nf-console@1.2.1,nf-google@1.21.0,nf-k8s@1.0.0,nf-tower@1.11.3,nf-wave@1.12.1
-Jul-19 23:35:18.974 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
-Jul-19 23:35:18.975 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
-Jul-19 23:35:18.979 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.12.0 in 'deployment' mode
-Jul-19 23:35:18.992 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
-Jul-19 23:35:19.015 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/nextflow.config
-Jul-19 23:35:19.017 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/nextflow.config
-Jul-19 23:35:19.061 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/phemarajata/.nextflow/secrets/store.json
-Jul-19 23:35:19.067 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@41477a6d] - activable => nextflow.secret.LocalSecretsProvider@41477a6d
-Jul-19 23:35:19.092 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `docker`
-Jul-19 23:35:20.593 [main] DEBUG nextflow.config.ConfigBuilder - Available config profiles: [aspen_hpc, debug, shifter, test, conda, gcp_vm, singularity, rosalind_hpc, test_full, docker]
-Jul-19 23:35:20.639 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declaration
-Jul-19 23:35:20.668 [main] DEBUG nextflow.cli.CmdRun - Launching `main.nf` [nauseous_brenner] DSL2 - revision: 3a85b30ccc
-Jul-19 23:35:20.671 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
-Jul-19 23:35:20.672 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
-Jul-19 23:35:20.745 [main] DEBUG nextflow.Session - Session UUID: a0a2b0b9-76e2-4044-bbd5-7c3cd21149c8
-Jul-19 23:35:20.746 [main] DEBUG nextflow.Session - Run name: nauseous_brenner
-Jul-19 23:35:20.747 [main] DEBUG nextflow.Session - Executor pool size: 22
-Jul-19 23:35:20.764 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
-Jul-19 23:35:20.770 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=66; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
-Jul-19 23:35:20.807 [main] DEBUG nextflow.cli.CmdRun - 
+Jul-19 23:37:03.882 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf -profile docker --poppipe_output /home/phemarajata/Downloads/PopPIPE-bp/output_with_samui_final --input /home/phemarajata/Downloads/PopPIPE-bp/combined_rfile.txt --outdir results_samuilplusall_tsv --snp_package parsnp
+Jul-19 23:37:04.017 [main] DEBUG nextflow.cli.CmdRun - N E X T F L O W  ~  version 25.04.4
+Jul-19 23:37:04.045 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/phemarajata/.nextflow/plugins; core-plugins: nf-amazon@2.15.0,nf-azure@1.16.0,nf-cloudcache@0.4.3,nf-codecommit@0.2.3,nf-console@1.2.1,nf-google@1.21.0,nf-k8s@1.0.0,nf-tower@1.11.3,nf-wave@1.12.1
+Jul-19 23:37:04.074 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Jul-19 23:37:04.075 [main] INFO  o.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Jul-19 23:37:04.078 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.12.0 in 'deployment' mode
+Jul-19 23:37:04.097 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Jul-19 23:37:04.126 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/nextflow.config
+Jul-19 23:37:04.129 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/nextflow.config
+Jul-19 23:37:04.166 [main] DEBUG n.secret.LocalSecretsProvider - Secrets store: /home/phemarajata/.nextflow/secrets/store.json
+Jul-19 23:37:04.171 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@2160e52a] - activable => nextflow.secret.LocalSecretsProvider@2160e52a
+Jul-19 23:37:04.196 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `docker`
+Jul-19 23:37:05.563 [main] DEBUG nextflow.config.ConfigBuilder - Available config profiles: [aspen_hpc, debug, shifter, test, conda, gcp_vm, singularity, rosalind_hpc, test_full, docker]
+Jul-19 23:37:05.608 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 from script declaration
+Jul-19 23:37:05.626 [main] DEBUG nextflow.cli.CmdRun - Launching `main.nf` [amazing_khorana] DSL2 - revision: 3a85b30ccc
+Jul-19 23:37:05.628 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Jul-19 23:37:05.628 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Jul-19 23:37:05.685 [main] DEBUG nextflow.Session - Session UUID: f4a9b331-df9e-410a-874d-957b89ab237d
+Jul-19 23:37:05.686 [main] DEBUG nextflow.Session - Run name: amazing_khorana
+Jul-19 23:37:05.686 [main] DEBUG nextflow.Session - Executor pool size: 22
+Jul-19 23:37:05.697 [main] DEBUG nextflow.file.FilePorter - File porter settings maxRetries=3; maxTransfers=50; pollTimeout=null
+Jul-19 23:37:05.703 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=66; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
+Jul-19 23:37:05.725 [main] DEBUG nextflow.cli.CmdRun - 
   Version: 25.04.4 build 5950
   Created: 16-06-2025 14:23 UTC (21:23 ICST)
   System: Linux 6.11.0-29-generic
   Runtime: Groovy 4.0.26 on Java HotSpot(TM) 64-Bit Server VM 17.0.12+8-LTS-286
   Encoding: UTF-8 (UTF-8)
-  Process: 35429@phemarajata-Stealth-16-MercedesAMG-A1VGG [127.0.1.1]
-  CPUs: 22 - Mem: 62.3 GB (48.9 GB) - Swap: 8 GB (8 GB)
-Jul-19 23:35:20.830 [main] DEBUG nextflow.Session - Work-dir: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work [ext2/ext3]
-Jul-19 23:35:20.878 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
-Jul-19 23:35:20.891 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
-Jul-19 23:35:20.956 [main] DEBUG nextflow.Session - Observer factory (v2): LinObserverFactory
-Jul-19 23:35:20.992 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
-Jul-19 23:35:21.012 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 23; maxThreads: 1000
-Jul-19 23:35:21.100 [main] DEBUG nextflow.Session - Session start
-Jul-19 23:35:21.106 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow started -- trace file: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/results_samuilplusall_tsv/pipeline_info/execution_trace_2025-07-19_23-35-20.txt
-Jul-19 23:35:21.120 [main] DEBUG nextflow.Session - Using default localLib path: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/lib
-Jul-19 23:35:21.125 [main] DEBUG nextflow.Session - Adding to the classpath library: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/lib
-Jul-19 23:35:21.127 [main] DEBUG nextflow.Session - Adding to the classpath library: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/lib/nfcore_external_java_deps.jar
-Jul-19 23:35:21.955 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
-Jul-19 23:35:22.030 [main] INFO  nextflow.Nextflow - 
+  Process: 38041@phemarajata-Stealth-16-MercedesAMG-A1VGG [127.0.1.1]
+  CPUs: 22 - Mem: 62.3 GB (49 GB) - Swap: 8 GB (8 GB)
+Jul-19 23:37:05.752 [main] DEBUG nextflow.Session - Work-dir: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work [ext2/ext3]
+Jul-19 23:37:05.799 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Jul-19 23:37:05.811 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Jul-19 23:37:05.853 [main] DEBUG nextflow.Session - Observer factory (v2): LinObserverFactory
+Jul-19 23:37:05.880 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Jul-19 23:37:05.890 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 23; maxThreads: 1000
+Jul-19 23:37:05.948 [main] DEBUG nextflow.Session - Session start
+Jul-19 23:37:05.953 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow started -- trace file: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/results_samuilplusall_tsv/pipeline_info/execution_trace_2025-07-19_23-37-05.txt
+Jul-19 23:37:05.961 [main] DEBUG nextflow.Session - Using default localLib path: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/lib
+Jul-19 23:37:05.964 [main] DEBUG nextflow.Session - Adding to the classpath library: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/lib
+Jul-19 23:37:05.965 [main] DEBUG nextflow.Session - Adding to the classpath library: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/lib/nfcore_external_java_deps.jar
+Jul-19 23:37:06.713 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Jul-19 23:37:06.759 [main] INFO  nextflow.Nextflow - 
 
 -[2m----------------------------------------------------[0m-
 [0;34m     __         __ __ __     __            __     __  __    [0m
@@ -53,7 +53,7 @@ Jul-19 23:35:22.030 [main] INFO  nextflow.Nextflow -
 [0;35m     bacterial-genomics/wf-assembly-snps v1.0.2[0m
 -[2m----------------------------------------------------[0m-
 [1mCore Nextflow options[0m
-  [0;34mrunName             : [0;32mnauseous_brenner[0m
+  [0;34mrunName             : [0;32mamazing_khorana[0m
   [0;34mcontainerEngine     : [0;32mdocker[0m
   [0;34mlaunchDir           : [0;32m/home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe[0m
   [0;34mworkDir             : [0;32m/home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work[0m
@@ -92,79 +92,79 @@ If you use bacterial-genomics/wf-assembly-snps for your analysis please cite:
 * Software dependencies
   https://github.com/bacterial-genomics/wf-assembly-snps/blob/main/CITATIONS.md
 -[2m----------------------------------------------------[0m-
-Jul-19 23:35:22.139 [main] WARN  nextflow.Nextflow - Found unexpected parameters:
+Jul-19 23:37:06.859 [main] WARN  nextflow.Nextflow - Found unexpected parameters:
 * --poppunk_clusters: null
-Jul-19 23:35:22.140 [main] INFO  nextflow.Nextflow - - [2mIgnore this warning: params.schema_ignore_params = "poppunk_clusters" [0m
-Jul-19 23:35:25.203 [main] INFO  nextflow.Nextflow - Parsing PopPIPE-bp output directory: /home/phemarajata/Downloads/PopPIPE-bp/output_with_samui_final
-Jul-19 23:35:25.204 [main] INFO  nextflow.Nextflow - Input source: /home/phemarajata/Downloads/PopPIPE-bp/combined_rfile.txt
-Jul-19 23:35:25.261 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_single` matches labels `process_single` for process with name POPPIPE_SNP_ANALYSIS:PARSE_POPPIPE_OUTPUT
-Jul-19 23:35:25.275 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
-Jul-19 23:35:25.276 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Jul-19 23:35:25.283 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
-Jul-19 23:35:25.291 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=22; memory=62.3 GB; capacity=22; pollInterval=100ms; dumpInterval=5m
-Jul-19 23:35:25.293 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
-Jul-19 23:35:25.313 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'POPPIPE_SNP_ANALYSIS:PARSE_POPPIPE_OUTPUT': maxForks=0; fair=false; array=0
-Jul-19 23:35:25.425 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
-Jul-19 23:35:25.425 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Jul-19 23:35:25.426 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX': maxForks=0; fair=false; array=0
-Jul-19 23:35:25.460 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_high` matches labels `process_high` for process with name POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CORE_GENOME_ALIGNMENT_PARSNP
-Jul-19 23:35:25.461 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:CORE_GENOME_ALIGNMENT_PARSNP` matches process POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CORE_GENOME_ALIGNMENT_PARSNP
-Jul-19 23:35:25.465 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
-Jul-19 23:35:25.465 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Jul-19 23:35:25.466 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CORE_GENOME_ALIGNMENT_PARSNP': maxForks=0; fair=false; array=0
-Jul-19 23:35:25.477 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches labels `process_low` for process with name POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CONVERT_GINGR_TO_FASTA_HARVESTTOOLS
-Jul-19 23:35:25.478 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:CONVERT_GINGR_TO_FASTA_HARVESTTOOLS` matches process POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CONVERT_GINGR_TO_FASTA_HARVESTTOOLS
-Jul-19 23:35:25.480 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
-Jul-19 23:35:25.480 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Jul-19 23:35:25.481 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CONVERT_GINGR_TO_FASTA_HARVESTTOOLS': maxForks=0; fair=false; array=0
-Jul-19 23:35:25.492 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches labels `process_medium` for process with name POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CALCULATE_PAIRWISE_DISTANCES_SNP_DISTS
-Jul-19 23:35:25.493 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:CALCULATE_PAIRWISE_DISTANCES_SNP_DISTS` matches process POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CALCULATE_PAIRWISE_DISTANCES_SNP_DISTS
-Jul-19 23:35:25.497 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
-Jul-19 23:35:25.497 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Jul-19 23:35:25.498 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CALCULATE_PAIRWISE_DISTANCES_SNP_DISTS': maxForks=0; fair=false; array=0
-Jul-19 23:35:25.506 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches labels `process_low` for process with name POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CREATE_SNP_DISTANCE_MATRIX_SNP_DISTS
-Jul-19 23:35:25.507 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:CREATE_SNP_DISTANCE_MATRIX_SNP_DISTS` matches process POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CREATE_SNP_DISTANCE_MATRIX_SNP_DISTS
-Jul-19 23:35:25.508 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
-Jul-19 23:35:25.509 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Jul-19 23:35:25.510 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CREATE_SNP_DISTANCE_MATRIX_SNP_DISTS': maxForks=0; fair=false; array=0
-Jul-19 23:35:25.519 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_high` matches labels `process_high` for process with name POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:RECOMBINATION:RECOMBINATION_GUBBINS
-Jul-19 23:35:25.520 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:RECOMBINATION_GUBBINS` matches process POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:RECOMBINATION:RECOMBINATION_GUBBINS
-Jul-19 23:35:25.523 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
-Jul-19 23:35:25.523 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Jul-19 23:35:25.524 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:RECOMBINATION:RECOMBINATION_GUBBINS': maxForks=0; fair=false; array=0
-Jul-19 23:35:25.540 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches labels `process_medium` for process with name POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:MASK_RECOMBINANT_POSITIONS_BIOPYTHON
-Jul-19 23:35:25.542 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:MASK_RECOMBINANT_POSITIONS_BIOPYTHON` matches process POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:MASK_RECOMBINANT_POSITIONS_BIOPYTHON
-Jul-19 23:35:25.548 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
-Jul-19 23:35:25.549 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Jul-19 23:35:25.553 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:MASK_RECOMBINANT_POSITIONS_BIOPYTHON': maxForks=0; fair=false; array=0
-Jul-19 23:35:25.563 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches labels `process_medium` for process with name POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CREATE_MASKED_SNP_DISTANCE_MATRIX_SNP_DISTS
-Jul-19 23:35:25.564 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:CREATE_MASKED_SNP_DISTANCE_MATRIX_SNP_DISTS` matches process POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CREATE_MASKED_SNP_DISTANCE_MATRIX_SNP_DISTS
-Jul-19 23:35:25.566 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
-Jul-19 23:35:25.566 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Jul-19 23:35:25.566 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CREATE_MASKED_SNP_DISTANCE_MATRIX_SNP_DISTS': maxForks=0; fair=false; array=0
-Jul-19 23:35:25.575 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_high` matches labels `process_high` for process with name POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:BUILD_PHYLOGENETIC_TREE_PARSNP
-Jul-19 23:35:25.576 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:BUILD_PHYLOGENETIC_TREE_PARSNP` matches process POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:BUILD_PHYLOGENETIC_TREE_PARSNP
-Jul-19 23:35:25.578 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
-Jul-19 23:35:25.578 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Jul-19 23:35:25.579 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:BUILD_PHYLOGENETIC_TREE_PARSNP': maxForks=0; fair=false; array=0
-Jul-19 23:35:25.594 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches labels `process_medium` for process with name POPPIPE_SNP_ANALYSIS:TREE_GRAFT
-Jul-19 23:35:25.597 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
-Jul-19 23:35:25.597 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
-Jul-19 23:35:25.598 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'POPPIPE_SNP_ANALYSIS:TREE_GRAFT': maxForks=0; fair=false; array=0
-Jul-19 23:35:25.640 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: INFILE_HANDLING_UNIX, POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CREATE_SNP_DISTANCE_MATRIX_SNP_DISTS, POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CALCULATE_PAIRWISE_DISTANCES_SNP_DISTS, PARSE_POPPUNK_CLUSTERS, POPPIPE_SNP_ANALYSIS:PARSE_POPPIPE_OUTPUT, POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CORE_GENOME_ALIGNMENT_PARSNP, TREE_GRAFT, POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:RECOMBINATION:RECOMBINATION_GUBBINS, POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:BUILD_PHYLOGENETIC_TREE_PARSNP, CREATE_SNP_DISTANCE_MATRIX_SNP_DISTS, POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CONVERT_GINGR_TO_FASTA_HARVESTTOOLS, POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX, CONVERT_GINGR_TO_FASTA_HARVESTTOOLS, MASK_RECOMBINANT_POSITIONS_BIOPYTHON, CORE_GENOME_ALIGNMENT_PARSNP, POPPIPE_SNP_ANALYSIS:TREE_GRAFT, REF_INFILE_HANDLING_UNIX, CONVERT_TSV_TO_EXCEL_PYTHON, CALCULATE_PAIRWISE_DISTANCES_SNP_DISTS, RECOMBINATION_GUBBINS, CONVERT_SAMPLESHEET_PYTHON, CREATE_EXCEL_RUN_SUMMARY_PYTHON, CREATE_MASKED_SNP_DISTANCE_MATRIX_SNP_DISTS, POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:MASK_RECOMBINANT_POSITIONS_BIOPYTHON, POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CREATE_MASKED_SNP_DISTANCE_MATRIX_SNP_DISTS, BUILD_PHYLOGENETIC_TREE_PARSNP, RECOMBINATION_CLONALFRAMEML, PARSE_POPPIPE_OUTPUT
-Jul-19 23:35:25.647 [main] DEBUG nextflow.Session - Igniting dataflow network (20)
-Jul-19 23:35:25.647 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > POPPIPE_SNP_ANALYSIS:PARSE_POPPIPE_OUTPUT
-Jul-19 23:35:25.648 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX
-Jul-19 23:35:25.648 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CORE_GENOME_ALIGNMENT_PARSNP
-Jul-19 23:35:25.648 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CONVERT_GINGR_TO_FASTA_HARVESTTOOLS
-Jul-19 23:35:25.648 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CALCULATE_PAIRWISE_DISTANCES_SNP_DISTS
-Jul-19 23:35:25.648 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CREATE_SNP_DISTANCE_MATRIX_SNP_DISTS
-Jul-19 23:35:25.648 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:RECOMBINATION:RECOMBINATION_GUBBINS
-Jul-19 23:35:25.648 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:MASK_RECOMBINANT_POSITIONS_BIOPYTHON
-Jul-19 23:35:25.648 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CREATE_MASKED_SNP_DISTANCE_MATRIX_SNP_DISTS
-Jul-19 23:35:25.648 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:BUILD_PHYLOGENETIC_TREE_PARSNP
-Jul-19 23:35:25.648 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > POPPIPE_SNP_ANALYSIS:TREE_GRAFT
-Jul-19 23:35:25.661 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
+Jul-19 23:37:06.859 [main] INFO  nextflow.Nextflow - - [2mIgnore this warning: params.schema_ignore_params = "poppunk_clusters" [0m
+Jul-19 23:37:10.081 [main] INFO  nextflow.Nextflow - Parsing PopPIPE-bp output directory: /home/phemarajata/Downloads/PopPIPE-bp/output_with_samui_final
+Jul-19 23:37:10.082 [main] INFO  nextflow.Nextflow - Input source: /home/phemarajata/Downloads/PopPIPE-bp/combined_rfile.txt
+Jul-19 23:37:10.148 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_single` matches labels `process_single` for process with name POPPIPE_SNP_ANALYSIS:PARSE_POPPIPE_OUTPUT
+Jul-19 23:37:10.159 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jul-19 23:37:10.160 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jul-19 23:37:10.165 [main] DEBUG nextflow.executor.Executor - [warm up] executor > local
+Jul-19 23:37:10.171 [main] DEBUG n.processor.LocalPollingMonitor - Creating local task monitor for executor 'local' > cpus=22; memory=62.3 GB; capacity=22; pollInterval=100ms; dumpInterval=5m
+Jul-19 23:37:10.173 [main] DEBUG n.processor.TaskPollingMonitor - >>> barrier register (monitor: local)
+Jul-19 23:37:10.194 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'POPPIPE_SNP_ANALYSIS:PARSE_POPPIPE_OUTPUT': maxForks=0; fair=false; array=0
+Jul-19 23:37:10.305 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jul-19 23:37:10.305 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jul-19 23:37:10.307 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX': maxForks=0; fair=false; array=0
+Jul-19 23:37:10.335 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_high` matches labels `process_high` for process with name POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CORE_GENOME_ALIGNMENT_PARSNP
+Jul-19 23:37:10.336 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:CORE_GENOME_ALIGNMENT_PARSNP` matches process POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CORE_GENOME_ALIGNMENT_PARSNP
+Jul-19 23:37:10.339 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jul-19 23:37:10.339 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jul-19 23:37:10.340 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CORE_GENOME_ALIGNMENT_PARSNP': maxForks=0; fair=false; array=0
+Jul-19 23:37:10.350 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches labels `process_low` for process with name POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CONVERT_GINGR_TO_FASTA_HARVESTTOOLS
+Jul-19 23:37:10.351 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:CONVERT_GINGR_TO_FASTA_HARVESTTOOLS` matches process POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CONVERT_GINGR_TO_FASTA_HARVESTTOOLS
+Jul-19 23:37:10.353 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jul-19 23:37:10.354 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jul-19 23:37:10.355 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CONVERT_GINGR_TO_FASTA_HARVESTTOOLS': maxForks=0; fair=false; array=0
+Jul-19 23:37:10.363 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches labels `process_medium` for process with name POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CALCULATE_PAIRWISE_DISTANCES_SNP_DISTS
+Jul-19 23:37:10.364 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:CALCULATE_PAIRWISE_DISTANCES_SNP_DISTS` matches process POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CALCULATE_PAIRWISE_DISTANCES_SNP_DISTS
+Jul-19 23:37:10.367 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jul-19 23:37:10.367 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jul-19 23:37:10.368 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CALCULATE_PAIRWISE_DISTANCES_SNP_DISTS': maxForks=0; fair=false; array=0
+Jul-19 23:37:10.375 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_low` matches labels `process_low` for process with name POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CREATE_SNP_DISTANCE_MATRIX_SNP_DISTS
+Jul-19 23:37:10.376 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:CREATE_SNP_DISTANCE_MATRIX_SNP_DISTS` matches process POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CREATE_SNP_DISTANCE_MATRIX_SNP_DISTS
+Jul-19 23:37:10.377 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jul-19 23:37:10.378 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jul-19 23:37:10.379 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CREATE_SNP_DISTANCE_MATRIX_SNP_DISTS': maxForks=0; fair=false; array=0
+Jul-19 23:37:10.389 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_high` matches labels `process_high` for process with name POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:RECOMBINATION:RECOMBINATION_GUBBINS
+Jul-19 23:37:10.390 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:RECOMBINATION_GUBBINS` matches process POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:RECOMBINATION:RECOMBINATION_GUBBINS
+Jul-19 23:37:10.392 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jul-19 23:37:10.392 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jul-19 23:37:10.393 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:RECOMBINATION:RECOMBINATION_GUBBINS': maxForks=0; fair=false; array=0
+Jul-19 23:37:10.410 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches labels `process_medium` for process with name POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:MASK_RECOMBINANT_POSITIONS_BIOPYTHON
+Jul-19 23:37:10.412 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:MASK_RECOMBINANT_POSITIONS_BIOPYTHON` matches process POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:MASK_RECOMBINANT_POSITIONS_BIOPYTHON
+Jul-19 23:37:10.414 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jul-19 23:37:10.414 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jul-19 23:37:10.416 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:MASK_RECOMBINANT_POSITIONS_BIOPYTHON': maxForks=0; fair=false; array=0
+Jul-19 23:37:10.431 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches labels `process_medium` for process with name POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CREATE_MASKED_SNP_DISTANCE_MATRIX_SNP_DISTS
+Jul-19 23:37:10.433 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:CREATE_MASKED_SNP_DISTANCE_MATRIX_SNP_DISTS` matches process POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CREATE_MASKED_SNP_DISTANCE_MATRIX_SNP_DISTS
+Jul-19 23:37:10.436 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jul-19 23:37:10.437 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jul-19 23:37:10.437 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CREATE_MASKED_SNP_DISTANCE_MATRIX_SNP_DISTS': maxForks=0; fair=false; array=0
+Jul-19 23:37:10.447 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_high` matches labels `process_high` for process with name POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:BUILD_PHYLOGENETIC_TREE_PARSNP
+Jul-19 23:37:10.448 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withName:BUILD_PHYLOGENETIC_TREE_PARSNP` matches process POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:BUILD_PHYLOGENETIC_TREE_PARSNP
+Jul-19 23:37:10.450 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jul-19 23:37:10.450 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jul-19 23:37:10.451 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:BUILD_PHYLOGENETIC_TREE_PARSNP': maxForks=0; fair=false; array=0
+Jul-19 23:37:10.469 [main] DEBUG nextflow.script.ProcessConfig - Config settings `withLabel:process_medium` matches labels `process_medium` for process with name POPPIPE_SNP_ANALYSIS:TREE_GRAFT
+Jul-19 23:37:10.472 [main] DEBUG nextflow.executor.ExecutorFactory - << taskConfig executor: null
+Jul-19 23:37:10.472 [main] DEBUG nextflow.executor.ExecutorFactory - >> processorType: 'local'
+Jul-19 23:37:10.473 [main] DEBUG nextflow.processor.TaskProcessor - Creating process 'POPPIPE_SNP_ANALYSIS:TREE_GRAFT': maxForks=0; fair=false; array=0
+Jul-19 23:37:10.513 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: INFILE_HANDLING_UNIX, POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CREATE_SNP_DISTANCE_MATRIX_SNP_DISTS, POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CALCULATE_PAIRWISE_DISTANCES_SNP_DISTS, PARSE_POPPUNK_CLUSTERS, POPPIPE_SNP_ANALYSIS:PARSE_POPPIPE_OUTPUT, POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CORE_GENOME_ALIGNMENT_PARSNP, TREE_GRAFT, POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:RECOMBINATION:RECOMBINATION_GUBBINS, POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:BUILD_PHYLOGENETIC_TREE_PARSNP, CREATE_SNP_DISTANCE_MATRIX_SNP_DISTS, POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CONVERT_GINGR_TO_FASTA_HARVESTTOOLS, POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX, CONVERT_GINGR_TO_FASTA_HARVESTTOOLS, MASK_RECOMBINANT_POSITIONS_BIOPYTHON, CORE_GENOME_ALIGNMENT_PARSNP, POPPIPE_SNP_ANALYSIS:TREE_GRAFT, REF_INFILE_HANDLING_UNIX, CONVERT_TSV_TO_EXCEL_PYTHON, CALCULATE_PAIRWISE_DISTANCES_SNP_DISTS, RECOMBINATION_GUBBINS, CONVERT_SAMPLESHEET_PYTHON, CREATE_EXCEL_RUN_SUMMARY_PYTHON, CREATE_MASKED_SNP_DISTANCE_MATRIX_SNP_DISTS, POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:MASK_RECOMBINANT_POSITIONS_BIOPYTHON, POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CREATE_MASKED_SNP_DISTANCE_MATRIX_SNP_DISTS, BUILD_PHYLOGENETIC_TREE_PARSNP, RECOMBINATION_CLONALFRAMEML, PARSE_POPPIPE_OUTPUT
+Jul-19 23:37:10.519 [main] DEBUG nextflow.Session - Igniting dataflow network (20)
+Jul-19 23:37:10.520 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > POPPIPE_SNP_ANALYSIS:PARSE_POPPIPE_OUTPUT
+Jul-19 23:37:10.521 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX
+Jul-19 23:37:10.521 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CORE_GENOME_ALIGNMENT_PARSNP
+Jul-19 23:37:10.521 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CONVERT_GINGR_TO_FASTA_HARVESTTOOLS
+Jul-19 23:37:10.521 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CALCULATE_PAIRWISE_DISTANCES_SNP_DISTS
+Jul-19 23:37:10.521 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CREATE_SNP_DISTANCE_MATRIX_SNP_DISTS
+Jul-19 23:37:10.521 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:RECOMBINATION:RECOMBINATION_GUBBINS
+Jul-19 23:37:10.521 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:MASK_RECOMBINANT_POSITIONS_BIOPYTHON
+Jul-19 23:37:10.521 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:CREATE_MASKED_SNP_DISTANCE_MATRIX_SNP_DISTS
+Jul-19 23:37:10.521 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:BUILD_PHYLOGENETIC_TREE_PARSNP
+Jul-19 23:37:10.521 [main] DEBUG nextflow.processor.TaskProcessor - Starting process > POPPIPE_SNP_ANALYSIS:TREE_GRAFT
+Jul-19 23:37:10.522 [main] DEBUG nextflow.script.ScriptRunner - Parsed script files:
   Script_b9a8232e0fa11be0: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/modules/local/create_masked_snp_distance_matrix_snp_dists/main.nf
   Script_de42343b4a60b37d: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/modules/local/create_snp_distance_matrix_snp_dists/main.nf
   Script_6ef5bdac66e9e392: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/modules/local/build_phylogenetic_tree_parsnp/main.nf
@@ -173,11 +173,11 @@ Jul-19 23:35:25.661 [main] DEBUG nextflow.script.ScriptRunner - Parsed script fi
   Script_53027aa9816972db: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/modules/local/calculate_pairwise_distances_snp_dists/main.nf
   Script_d97613bdf9c0d9be: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/modules/local/convert_gingr_to_fasta_harvesttools/main.nf
   Script_cf1907f7a901597f: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/workflows/assembly_snps.nf
-  Script_b201bd7be3c9248f: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/modules/local/parse_poppipe_output/main.nf
   Script_62f9f54335ad34eb: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/modules/local/tree_graft/main.nf
+  Script_b201bd7be3c9248f: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/modules/local/parse_poppipe_output/main.nf
   Script_daab3931d6dbebc6: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/modules/local/convert_tsv_to_excel_python/main.nf
-  Script_bdfe511ac4c90ab8: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/subworkflows/local/recombination.nf
   Script_92a8fd2e65506f13: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/modules/local/create_excel_run_summary_python/main.nf
+  Script_bdfe511ac4c90ab8: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/subworkflows/local/recombination.nf
   Script_7ff909c4ed363959: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/modules/local/recombination_gubbins/main.nf
   Script_78ef99c1cf97f234: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/workflows/poppipe_snp_analysis.nf
   Script_91cc3a7de431b47a: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/workflows/assembly_snps_clustered.nf
@@ -188,41 +188,41 @@ Jul-19 23:35:25.661 [main] DEBUG nextflow.script.ScriptRunner - Parsed script fi
   Script_5ca559834abe9e5f: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/main.nf
   Script_30224b4410519b3a: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/modules/local/mask_recombinant_positions_biopython/main.nf
   Script_24820bed3f05c1d0: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/modules/local/recombination_clonalframeml/main.nf
-Jul-19 23:35:25.661 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
-Jul-19 23:35:25.662 [main] DEBUG nextflow.Session - Session await
-Jul-19 23:35:25.831 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Jul-19 23:35:25.834 [Task submitter] INFO  nextflow.Session - [ae/84c049] Submitted process > POPPIPE_SNP_ANALYSIS:PARSE_POPPIPE_OUTPUT (PopPIPE output parsing)
-Jul-19 23:35:28.122 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: POPPIPE_SNP_ANALYSIS:PARSE_POPPIPE_OUTPUT (PopPIPE output parsing); status: COMPLETED; exit: 0; error: -; workDir: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work/ae/84c049696e428a8819bf45cdbe4a75]
-Jul-19 23:35:28.122 [Task monitor] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'TaskFinalizer' minSize=10; maxSize=66; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
-Jul-19 23:35:28.387 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Jul-19 23:35:28.388 [Task submitter] INFO  nextflow.Session - [69/80e545] Submitted process > POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_IP-0048)
-Jul-19 23:35:28.405 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Jul-19 23:35:28.407 [Task submitter] INFO  nextflow.Session - [24/2e85d4] Submitted process > POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_ERS012303)
-Jul-19 23:35:28.418 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Jul-19 23:35:28.418 [Task submitter] INFO  nextflow.Session - [8a/ee6cc7] Submitted process > POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_GCA_963570025_1)
-Jul-19 23:35:28.429 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Jul-19 23:35:28.430 [Task submitter] INFO  nextflow.Session - [ab/299386] Submitted process > POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_IE-0012)
-Jul-19 23:35:28.443 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Jul-19 23:35:28.449 [Task submitter] INFO  nextflow.Session - [7e/d08140] Submitted process > POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_GCA_963561925_1)
-Jul-19 23:35:28.472 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Jul-19 23:35:28.473 [Task submitter] INFO  nextflow.Session - [c7/c383e2] Submitted process > POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_ERS012330)
-Jul-19 23:35:28.498 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Jul-19 23:35:28.506 [Task submitter] INFO  nextflow.Session - [67/36ef5e] Submitted process > POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_GCA_963573135_1)
-Jul-19 23:35:28.547 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Jul-19 23:35:28.549 [Task submitter] INFO  nextflow.Session - [74/4a38d0] Submitted process > POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_GCF_001326955_2_Malaysia)
-Jul-19 23:35:28.570 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Jul-19 23:35:28.574 [Task submitter] INFO  nextflow.Session - [66/d587b1] Submitted process > POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_SRR12527871_contigs)
-Jul-19 23:35:28.601 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
-Jul-19 23:35:28.607 [Task submitter] INFO  nextflow.Session - [56/a2e4fe] Submitted process > POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_IP-0029)
-Jul-19 23:35:29.128 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 5; name: POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_IP-0048); status: COMPLETED; exit: 1; error: -; workDir: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work/69/80e545fefe4b965ac2c8718e95f27b]
-Jul-19 23:35:29.209 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 19; name: POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_ERS012303); status: COMPLETED; exit: 1; error: -; workDir: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work/24/2e85d42e9a91575ac4ec07fb11ee22]
-Jul-19 23:35:29.218 [TaskFinalizer-2] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
-  task: name=POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_IP-0048); work-dir=/home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work/69/80e545fefe4b965ac2c8718e95f27b
-  error [nextflow.exception.ProcessFailedException]: Process `POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_IP-0048)` terminated with an error exit status (1)
-Jul-19 23:35:29.274 [TaskFinalizer-2] ERROR nextflow.processor.TaskProcessor - Error executing process > 'POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_IP-0048)'
+Jul-19 23:37:10.523 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Jul-19 23:37:10.523 [main] DEBUG nextflow.Session - Session await
+Jul-19 23:37:10.700 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jul-19 23:37:10.702 [Task submitter] INFO  nextflow.Session - [6d/ad7f9e] Submitted process > POPPIPE_SNP_ANALYSIS:PARSE_POPPIPE_OUTPUT (PopPIPE output parsing)
+Jul-19 23:37:12.882 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 1; name: POPPIPE_SNP_ANALYSIS:PARSE_POPPIPE_OUTPUT (PopPIPE output parsing); status: COMPLETED; exit: 0; error: -; workDir: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work/6d/ad7f9e87616db5746cf78c7a53a742]
+Jul-19 23:37:12.882 [Task monitor] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'TaskFinalizer' minSize=10; maxSize=66; workQueue=LinkedBlockingQueue[-1]; allowCoreThreadTimeout=false
+Jul-19 23:37:13.085 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jul-19 23:37:13.086 [Task submitter] INFO  nextflow.Session - [91/c5c9fa] Submitted process > POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_IP-0029)
+Jul-19 23:37:13.098 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jul-19 23:37:13.100 [Task submitter] INFO  nextflow.Session - [ba/41c63d] Submitted process > POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_SRR12527871_contigs)
+Jul-19 23:37:13.109 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jul-19 23:37:13.110 [Task submitter] INFO  nextflow.Session - [72/f9c143] Submitted process > POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_IP-0133)
+Jul-19 23:37:13.119 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jul-19 23:37:13.120 [Task submitter] INFO  nextflow.Session - [8c/b01337] Submitted process > POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_GCA_963565485_1)
+Jul-19 23:37:13.129 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jul-19 23:37:13.130 [Task submitter] INFO  nextflow.Session - [de/cf2936] Submitted process > POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_IP-0127)
+Jul-19 23:37:13.155 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jul-19 23:37:13.156 [Task submitter] INFO  nextflow.Session - [e4/954fa8] Submitted process > POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_ERS013358)
+Jul-19 23:37:13.171 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jul-19 23:37:13.172 [Task submitter] INFO  nextflow.Session - [37/41561a] Submitted process > POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_IP-0044)
+Jul-19 23:37:13.187 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jul-19 23:37:13.190 [Task submitter] INFO  nextflow.Session - [c9/d41dea] Submitted process > POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_GCA_963571365_1)
+Jul-19 23:37:13.219 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jul-19 23:37:13.223 [Task submitter] INFO  nextflow.Session - [b2/3bc831] Submitted process > POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_IE-0012)
+Jul-19 23:37:13.247 [Task submitter] DEBUG n.executor.local.LocalTaskHandler - Launch cmd line: /bin/bash -ue .command.run
+Jul-19 23:37:13.249 [Task submitter] INFO  nextflow.Session - [1e/589b95] Submitted process > POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_ERS012330)
+Jul-19 23:37:13.797 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 4; name: POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_SRR12527871_contigs); status: COMPLETED; exit: 1; error: -; workDir: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work/ba/41c63d3469f7ac1ba2c9c4d963709e]
+Jul-19 23:37:13.873 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 16; name: POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_GCA_963565485_1); status: COMPLETED; exit: 1; error: -; workDir: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work/8c/b0133777c2be615246f9e363f46b3a]
+Jul-19 23:37:13.878 [TaskFinalizer-2] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_SRR12527871_contigs); work-dir=/home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work/ba/41c63d3469f7ac1ba2c9c4d963709e
+  error [nextflow.exception.ProcessFailedException]: Process `POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_SRR12527871_contigs)` terminated with an error exit status (1)
+Jul-19 23:37:13.916 [TaskFinalizer-2] ERROR nextflow.processor.TaskProcessor - Error executing process > 'POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_SRR12527871_contigs)'
 
 Caused by:
-  Process `POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_IP-0048)` terminated with an error exit status (1)
+  Process `POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_SRR12527871_contigs)` terminated with an error exit status (1)
 
 
 Command executed:
@@ -258,7 +258,7 @@ Command executed:
   mkdir inputfiles
   
   # Determine file extension and gzip status
-  input_file="IP-0048.fasta"
+  input_file="SRR12527871_contigs.fasta"
   if [[ "${input_file}" == *.gz ]]; then
       gzip_compressed=".gz"
       filename_no_gz="${input_file%.gz}"
@@ -282,14 +282,14 @@ Command executed:
       file_extension="${filename_no_gz##*.}"
   fi
   
-  cp "${input_file}" inputfiles/"1_IP-0048.${file_extension}${gzip_compressed}"
+  cp "${input_file}" inputfiles/"1_SRR12527871_contigs.${file_extension}${gzip_compressed}"
   
   # gunzip all files that end in .{gz,Gz,GZ,gZ}
   find -L inputfiles/ -type f -name '*.[gG][zZ]' -exec gunzip -f {} +
   
   # Filter out small inputfiles
-  msg "Checking input file sizes for sample 1_IP-0048.."
-  echo -e "Sample name	QC step	Outcome (Pass/Fail)" > "1_IP-0048.Initial_Input_File.tsv"
+  msg "Checking input file sizes for sample 1_SRR12527871_contigs.."
+  echo -e "Sample name	QC step	Outcome (Pass/Fail)" > "1_SRR12527871_contigs.Initial_Input_File.tsv"
   
   file_count=0
   for file in inputfiles/*; do
@@ -307,15 +307,15 @@ Command executed:
   
     if verify_minimum_file_size "${file}" 'Input' "1k"; then
       base_name=$(basename "${file%%.*}" 2>/dev/null || echo "unknown")
-      echo -e "${base_name}	Input File	PASS"         >> "1_IP-0048.Initial_Input_File.tsv"
+      echo -e "${base_name}	Input File	PASS"         >> "1_SRR12527871_contigs.Initial_Input_File.tsv"
     else
       base_name=$(basename "${file%%.*}" 2>/dev/null || echo "unknown")
-      echo -e "${base_name}	Input File	FAIL"         >> "1_IP-0048.Initial_Input_File.tsv"
+      echo -e "${base_name}	Input File	FAIL"         >> "1_SRR12527871_contigs.Initial_Input_File.tsv"
       rm "${file}"
     fi
   done
   
-  msg "Completed processing ${file_count} files for sample 1_IP-0048"
+  msg "Completed processing ${file_count} files for sample 1_SRR12527871_contigs"
   
   cat <<-END_VERSIONS > versions.yml
   "POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX":
@@ -326,73 +326,73 @@ Command exit status:
   1
 
 Command output:
-  [2025-Jul-19 Sat 16:35:28] Checking input file sizes for sample 1_IP-0048..
+  [2025-Jul-19 Sat 16:37:13] Checking input file sizes for sample 1_SRR12527871_contigs..
 
 Command error:
-  [2025-Jul-19 Sat 16:35:28] Checking input file sizes for sample 1_IP-0048..
+  [2025-Jul-19 Sat 16:37:13] Checking input file sizes for sample 1_SRR12527871_contigs..
 
 Work dir:
-  /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work/69/80e545fefe4b965ac2c8718e95f27b
+  /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work/ba/41c63d3469f7ac1ba2c9c4d963709e
 
 Container:
   ubuntu:jammy
 
 Tip: when you have fixed the problem you can continue the execution adding the option `-resume` to the run command line
-Jul-19 23:35:29.283 [TaskFinalizer-2] INFO  nextflow.Session - Execution cancelled -- Finishing pending tasks before exit
-Jul-19 23:35:29.298 [main] DEBUG nextflow.Session - Session await > all processes finished
-Jul-19 23:35:29.305 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 3; name: POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_GCA_963570025_1); status: COMPLETED; exit: 1; error: -; workDir: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work/8a/ee6cc7fef5364c9ec86cb5d8c35769]
-Jul-19 23:35:29.307 [Actor Thread 21] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+Jul-19 23:37:13.925 [TaskFinalizer-2] INFO  nextflow.Session - Execution cancelled -- Finishing pending tasks before exit
+Jul-19 23:37:13.972 [main] DEBUG nextflow.Session - Session await > all processes finished
+Jul-19 23:37:13.984 [Actor Thread 23] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
   task: name=POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX; work-dir=null
   error [java.lang.IllegalStateException]: Cannot obtain the semaphore to fork operator's body.
-Jul-19 23:35:29.308 [Actor Thread 35] DEBUG nextflow.file.SortFileCollector - FileCollector temp dir not removed: null
-Jul-19 23:35:29.310 [TaskFinalizer-3] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
-  task: name=POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_ERS012303); work-dir=/home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work/24/2e85d42e9a91575ac4ec07fb11ee22
-  error [nextflow.exception.ProcessFailedException]: Process `POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_ERS012303)` terminated with an error exit status (1)
-Jul-19 23:35:29.332 [Actor Thread 8] DEBUG nextflow.sort.BigSort - Sort completed -- entries: 1; slices: 1; internal sort time: 0.002 s; external sort time: 0.019 s; total time: 0.021 s
-Jul-19 23:35:29.337 [Actor Thread 8] DEBUG nextflow.file.FileCollector - Saved collect-files list to: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work/collect-file/c04b4e304b6b208f579870a95d3ddabf
-Jul-19 23:35:29.347 [Actor Thread 8] DEBUG nextflow.file.FileCollector - Deleting file collector temp dir: /tmp/nxf-7519700229944877023
-Jul-19 23:35:29.365 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 10; name: POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_IE-0012); status: COMPLETED; exit: 1; error: -; workDir: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work/ab/299386eaed2a102c96cb8ff728bfb1]
-Jul-19 23:35:29.365 [TaskFinalizer-4] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
-  task: name=POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_GCA_963570025_1); work-dir=/home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work/8a/ee6cc7fef5364c9ec86cb5d8c35769
-  error [nextflow.exception.ProcessFailedException]: Process `POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_GCA_963570025_1)` terminated with an error exit status (1)
-Jul-19 23:35:29.386 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 24; name: POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_GCA_963561925_1); status: COMPLETED; exit: 1; error: -; workDir: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work/7e/d08140ce67742f2367ddb14b5cc5f8]
-Jul-19 23:35:29.387 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 7; name: POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_ERS012330); status: COMPLETED; exit: 1; error: -; workDir: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work/c7/c383e2f3c7e751f6ce8fc9ec5e944e]
-Jul-19 23:35:29.388 [TaskFinalizer-5] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
-  task: name=POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_IE-0012); work-dir=/home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work/ab/299386eaed2a102c96cb8ff728bfb1
-  error [nextflow.exception.ProcessFailedException]: Process `POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_IE-0012)` terminated with an error exit status (1)
-Jul-19 23:35:29.389 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 9; name: POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_GCA_963573135_1); status: COMPLETED; exit: 1; error: -; workDir: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work/67/36ef5ef0fd9e3fa3bd903860cfce0f]
-Jul-19 23:35:29.390 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 23; name: POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_GCF_001326955_2_Malaysia); status: COMPLETED; exit: 1; error: -; workDir: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work/74/4a38d0e61198911b95b515f56c99b2]
-Jul-19 23:35:29.390 [TaskFinalizer-6] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
-  task: name=POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_GCA_963561925_1); work-dir=/home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work/7e/d08140ce67742f2367ddb14b5cc5f8
-  error [nextflow.exception.ProcessFailedException]: Process `POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_GCA_963561925_1)` terminated with an error exit status (1)
-Jul-19 23:35:29.392 [TaskFinalizer-8] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
-  task: name=POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_GCA_963573135_1); work-dir=/home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work/67/36ef5ef0fd9e3fa3bd903860cfce0f
-  error [nextflow.exception.ProcessFailedException]: Process `POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_GCA_963573135_1)` terminated with an error exit status (1)
-Jul-19 23:35:29.393 [TaskFinalizer-9] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
-  task: name=POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_GCF_001326955_2_Malaysia); work-dir=/home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work/74/4a38d0e61198911b95b515f56c99b2
-  error [nextflow.exception.ProcessFailedException]: Process `POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_GCF_001326955_2_Malaysia)` terminated with an error exit status (1)
-Jul-19 23:35:29.395 [TaskFinalizer-7] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
-  task: name=POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_ERS012330); work-dir=/home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work/c7/c383e2f3c7e751f6ce8fc9ec5e944e
-  error [nextflow.exception.ProcessFailedException]: Process `POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_ERS012330)` terminated with an error exit status (1)
-Jul-19 23:35:29.455 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 4; name: POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_SRR12527871_contigs); status: COMPLETED; exit: 1; error: -; workDir: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work/66/d587b14add8bd92e5d7571531c1d9a]
-Jul-19 23:35:29.459 [TaskFinalizer-10] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
-  task: name=POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_SRR12527871_contigs); work-dir=/home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work/66/d587b14add8bd92e5d7571531c1d9a
-  error [nextflow.exception.ProcessFailedException]: Process `POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_SRR12527871_contigs)` terminated with an error exit status (1)
-Jul-19 23:35:29.511 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 13; name: POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_IP-0029); status: COMPLETED; exit: 1; error: -; workDir: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work/56/a2e4fe34431f31e98298f340d76aff]
-Jul-19 23:35:29.514 [TaskFinalizer-1] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
-  task: name=POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_IP-0029); work-dir=/home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work/56/a2e4fe34431f31e98298f340d76aff
+Jul-19 23:37:13.989 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 17; name: POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_IP-0044); status: COMPLETED; exit: 1; error: -; workDir: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work/37/41561a9ac5411391a3c469cf295115]
+Jul-19 23:37:13.992 [Actor Thread 33] DEBUG nextflow.file.SortFileCollector - FileCollector temp dir not removed: null
+Jul-19 23:37:13.993 [TaskFinalizer-3] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_GCA_963565485_1); work-dir=/home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work/8c/b0133777c2be615246f9e363f46b3a
+  error [nextflow.exception.ProcessFailedException]: Process `POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_GCA_963565485_1)` terminated with an error exit status (1)
+Jul-19 23:37:14.017 [Actor Thread 18] DEBUG nextflow.sort.BigSort - Sort completed -- entries: 1; slices: 1; internal sort time: 0.002 s; external sort time: 0.021 s; total time: 0.023 s
+Jul-19 23:37:14.023 [Actor Thread 18] DEBUG nextflow.file.FileCollector - Saved collect-files list to: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work/collect-file/5534a4c598a227024789c34c3c668cf4
+Jul-19 23:37:14.030 [Actor Thread 18] DEBUG nextflow.file.FileCollector - Deleting file collector temp dir: /tmp/nxf-3058953767999763079
+Jul-19 23:37:14.042 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 15; name: POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_GCA_963571365_1); status: COMPLETED; exit: 1; error: -; workDir: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work/c9/d41dea280aba2822e8d638f468ead1]
+Jul-19 23:37:14.044 [TaskFinalizer-4] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_IP-0044); work-dir=/home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work/37/41561a9ac5411391a3c469cf295115
+  error [nextflow.exception.ProcessFailedException]: Process `POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_IP-0044)` terminated with an error exit status (1)
+Jul-19 23:37:14.045 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 13; name: POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_IP-0029); status: COMPLETED; exit: 1; error: -; workDir: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work/91/c5c9fa70982350b24815cd1a9f5636]
+Jul-19 23:37:14.045 [TaskFinalizer-5] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_GCA_963571365_1); work-dir=/home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work/c9/d41dea280aba2822e8d638f468ead1
+  error [nextflow.exception.ProcessFailedException]: Process `POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_GCA_963571365_1)` terminated with an error exit status (1)
+Jul-19 23:37:14.065 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 18; name: POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_IP-0133); status: COMPLETED; exit: 1; error: -; workDir: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work/72/f9c1430152a874384e2692bfc4ef1e]
+Jul-19 23:37:14.066 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 8; name: POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_ERS013358); status: COMPLETED; exit: 1; error: -; workDir: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work/e4/954fa80085e3b4cbee19fbafe4c93f]
+Jul-19 23:37:14.066 [TaskFinalizer-6] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_IP-0029); work-dir=/home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work/91/c5c9fa70982350b24815cd1a9f5636
   error [nextflow.exception.ProcessFailedException]: Process `POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_IP-0029)` terminated with an error exit status (1)
-Jul-19 23:35:29.515 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local) - terminating tasks monitor poll loop
-Jul-19 23:35:29.515 [main] DEBUG nextflow.Session - Session await > all barriers passed
-Jul-19 23:35:29.519 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'TaskFinalizer' shutdown completed (hard=false)
-Jul-19 23:35:29.523 [main] INFO  nextflow.Nextflow - -[0;35m[bacterial-genomics/wf-assembly-snps][0;31m Pipeline completed with errors[0m-
-Jul-19 23:35:29.524 [main] INFO  nextflow.Nextflow - -[0;35m[bacterial-genomics/wf-assembly-snps][0;31m Pipeline completed with errors[0m-
-Jul-19 23:35:29.525 [main] INFO  nextflow.Nextflow - -[0;35m[bacterial-genomics/wf-assembly-snps][0;31m Pipeline completed with errors[0m-
-Jul-19 23:35:29.526 [main] INFO  nextflow.Nextflow - -[0;35m[bacterial-genomics/wf-assembly-snps][0;31m Pipeline completed with errors[0m-
-Jul-19 23:35:29.533 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=1; failedCount=10; ignoredCount=0; cachedCount=0; pendingCount=175; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=2s; failedDuration=8.3s; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=10; peakCpus=10; peakMemory=60 GB; ]
-Jul-19 23:35:29.534 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow completed -- saving trace file
-Jul-19 23:35:29.535 [main] DEBUG nextflow.trace.ReportObserver - Workflow completed -- rendering execution report
-Jul-19 23:35:29.958 [main] DEBUG nextflow.trace.TimelineObserver - Workflow completed -- rendering execution timeline
-Jul-19 23:35:30.105 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
-Jul-19 23:35:30.117 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
-Jul-19 23:35:30.118 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye
+Jul-19 23:37:14.067 [TaskFinalizer-7] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_IP-0133); work-dir=/home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work/72/f9c1430152a874384e2692bfc4ef1e
+  error [nextflow.exception.ProcessFailedException]: Process `POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_IP-0133)` terminated with an error exit status (1)
+Jul-19 23:37:14.068 [TaskFinalizer-8] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_ERS013358); work-dir=/home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work/e4/954fa80085e3b4cbee19fbafe4c93f
+  error [nextflow.exception.ProcessFailedException]: Process `POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_ERS013358)` terminated with an error exit status (1)
+Jul-19 23:37:14.140 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 12; name: POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_IP-0127); status: COMPLETED; exit: 1; error: -; workDir: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work/de/cf29362dc627b8d9e7a013ec248bc0]
+Jul-19 23:37:14.144 [TaskFinalizer-9] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_IP-0127); work-dir=/home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work/de/cf29362dc627b8d9e7a013ec248bc0
+  error [nextflow.exception.ProcessFailedException]: Process `POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_IP-0127)` terminated with an error exit status (1)
+Jul-19 23:37:14.163 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 10; name: POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_IE-0012); status: COMPLETED; exit: 1; error: -; workDir: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work/b2/3bc83126025ad07ebf01cffd7f3825]
+Jul-19 23:37:14.166 [TaskFinalizer-10] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_IE-0012); work-dir=/home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work/b2/3bc83126025ad07ebf01cffd7f3825
+  error [nextflow.exception.ProcessFailedException]: Process `POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_IE-0012)` terminated with an error exit status (1)
+Jul-19 23:37:14.244 [Task monitor] DEBUG n.processor.TaskPollingMonitor - Task completed > TaskHandler[id: 7; name: POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_ERS012330); status: COMPLETED; exit: 1; error: -; workDir: /home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work/1e/589b9593831f2d8979a838e3e17bf1]
+Jul-19 23:37:14.245 [Task monitor] DEBUG n.processor.TaskPollingMonitor - <<< barrier arrives (monitor: local) - terminating tasks monitor poll loop
+Jul-19 23:37:14.246 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Jul-19 23:37:14.246 [TaskFinalizer-1] DEBUG nextflow.processor.TaskProcessor - Handling unexpected condition for
+  task: name=POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_ERS012330); work-dir=/home/phemarajata/Downloads/wf-assembly-snps-optimized_poppipe/work/1e/589b9593831f2d8979a838e3e17bf1
+  error [nextflow.exception.ProcessFailedException]: Process `POPPIPE_SNP_ANALYSIS:CLUSTER_SNP_ANALYSIS:INFILE_HANDLING_UNIX (1_ERS012330)` terminated with an error exit status (1)
+Jul-19 23:37:14.249 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'TaskFinalizer' shutdown completed (hard=false)
+Jul-19 23:37:14.251 [main] INFO  nextflow.Nextflow - -[0;35m[bacterial-genomics/wf-assembly-snps][0;31m Pipeline completed with errors[0m-
+Jul-19 23:37:14.252 [main] INFO  nextflow.Nextflow - -[0;35m[bacterial-genomics/wf-assembly-snps][0;31m Pipeline completed with errors[0m-
+Jul-19 23:37:14.252 [main] INFO  nextflow.Nextflow - -[0;35m[bacterial-genomics/wf-assembly-snps][0;31m Pipeline completed with errors[0m-
+Jul-19 23:37:14.253 [main] INFO  nextflow.Nextflow - -[0;35m[bacterial-genomics/wf-assembly-snps][0;31m Pipeline completed with errors[0m-
+Jul-19 23:37:14.257 [main] DEBUG n.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=1; failedCount=10; ignoredCount=0; cachedCount=0; pendingCount=187; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=1.9s; failedDuration=8.3s; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=10; peakCpus=10; peakMemory=60 GB; ]
+Jul-19 23:37:14.257 [main] DEBUG nextflow.trace.TraceFileObserver - Workflow completed -- saving trace file
+Jul-19 23:37:14.258 [main] DEBUG nextflow.trace.ReportObserver - Workflow completed -- rendering execution report
+Jul-19 23:37:14.642 [main] DEBUG nextflow.trace.TimelineObserver - Workflow completed -- rendering execution timeline
+Jul-19 23:37:14.745 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Jul-19 23:37:14.760 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
+Jul-19 23:37:14.761 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye
