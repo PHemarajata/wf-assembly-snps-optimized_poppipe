@@ -1,7 +1,0 @@
-/home/phemarajata/Downloads/PopPIPE-bp/GCA_963571845_1.fasta
-/home/phemarajata/Downloads/PopPIPE-bp/GCA_963561565_1.fasta
-/home/phemarajata/Downloads/PopPIPE-bp/GCA_963564305_1.fasta
-/home/phemarajata/PopPIPE-bp/megamix_collection/GCA_963572945_1.fasta
-/home/phemarajata/PopPIPE-bp/megamix_collection/GCA_963570365_1.fasta
-/home/phemarajata/PopPIPE-bp/megamix_collection/GCA_963570235_1.fasta
-/home/phemarajata/PopPIPE-bp/megamix_collection/GCA_963570455_1.fasta

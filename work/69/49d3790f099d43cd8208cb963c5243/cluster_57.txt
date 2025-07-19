@@ -1,8 +1,0 @@
-/home/phemarajata/Downloads/PopPIPE-bp/GCF_002111105_1_USA_California.fasta
-/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_001976865_1_Thailand_Ubon.fasta
-/home/phemarajata/PopPIPE-bp/megamix_collection/GCA_963564815_1.fasta
-/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_900594645_1_Thailand.fasta
-/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_900594685_1_Thailand.fasta
-/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_900591725_1_Thailand.fasta
-/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_900595585_2_Thailand.fasta
-/home/phemarajata/PopPIPE-bp/megamix_collection/GCF_900597505_1_Thailand.fasta

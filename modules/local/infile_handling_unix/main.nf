@@ -13,14 +13,6 @@ process INFILE_HANDLING_UNIX {
     path("versions.yml")                                      , emit: versions
 
     shell:
-    // Rename files with meta.id (has spaces and periods removed)
-    gzip_compressed = input.toString().contains('.gz') ? '.gz' : ''
-    // Improved file extension extraction to handle complex filenames
-    def filename_no_gz = input.toString().replaceAll(/(?i)\.gz$/, '')
-    def known_extensions = ['fasta', 'fas', 'fna', 'fsa', 'fa']
-    file_extension = known_extensions.find { ext -> 
-        filename_no_gz.toLowerCase().endsWith('.' + ext) 
-    } ?: filename_no_gz.split('\\.')[-1]
     '''
     # Define bash functions inline
     msg() {
@@ -51,7 +43,33 @@ process INFILE_HANDLING_UNIX {
 
     # Rename input files to prefix and move to inputfiles dir
     mkdir inputfiles
-    cp !{input} inputfiles/"!{meta.id}.!{file_extension}!{gzip_compressed}"
+    
+    # Determine file extension and gzip status
+    input_file="!{input}"
+    if [[ "${input_file}" == *.gz ]]; then
+        gzip_compressed=".gz"
+        filename_no_gz="${input_file%.gz}"
+    else
+        gzip_compressed=""
+        filename_no_gz="${input_file}"
+    fi
+    
+    # Extract file extension
+    if [[ "${filename_no_gz,,}" == *.fasta ]]; then
+        file_extension="fasta"
+    elif [[ "${filename_no_gz,,}" == *.fas ]]; then
+        file_extension="fas"
+    elif [[ "${filename_no_gz,,}" == *.fna ]]; then
+        file_extension="fna"
+    elif [[ "${filename_no_gz,,}" == *.fsa ]]; then
+        file_extension="fsa"
+    elif [[ "${filename_no_gz,,}" == *.fa ]]; then
+        file_extension="fa"
+    else
+        file_extension="${filename_no_gz##*.}"
+    fi
+    
+    cp "${input_file}" inputfiles/"!{meta.id}.${file_extension}${gzip_compressed}"
 
     # gunzip all files that end in .{gz,Gz,GZ,gZ}
     find -L inputfiles/ -type f -name '*.[gG][zZ]' -exec gunzip -f {} +
@@ -71,17 +89,14 @@ process INFILE_HANDLING_UNIX {
       ((file_count++))
       
       # Safely get basename
-      local filename
       filename=$(basename "${file}" 2>/dev/null || echo "unknown_file")
       msg "Processing file ${file_count}: ${filename}"
       
       if verify_minimum_file_size "${file}" 'Input' "!{params.min_input_filesize}"; then
-        local base_name
         base_name=$(basename "${file%%.*}" 2>/dev/null || echo "unknown")
         echo -e "${base_name}\tInput File\tPASS" \
         >> "!{meta.id}.Initial_Input_File.tsv"
       else
-        local base_name
         base_name=$(basename "${file%%.*}" 2>/dev/null || echo "unknown")
         echo -e "${base_name}\tInput File\tFAIL" \
         >> "!{meta.id}.Initial_Input_File.tsv"

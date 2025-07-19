@@ -1,9 +1,0 @@
-/home/phemarajata/Downloads/PopPIPE-bp/GCF_014713015_1_Laos.fasta
-/home/phemarajata/Downloads/PopPIPE-bp/GCF_014712945_1_Laos.fasta
-/home/phemarajata/PopPIPE-bp/megamix_collection/GCA_963562245_1.fasta
-/home/phemarajata/PopPIPE-bp/megamix_collection/GCA_963570585_1.fasta
-/home/phemarajata/PopPIPE-bp/megamix_collection/GCA_963569115_1.fasta
-/home/phemarajata/PopPIPE-bp/megamix_collection/GCA_963564405_1.fasta
-/home/phemarajata/PopPIPE-bp/megamix_collection/GCA_963570075_1.fasta
-/home/phemarajata/PopPIPE-bp/megamix_collection/GCA_963561265_1.fasta
-/home/phemarajata/PopPIPE-bp/megamix_collection/GCA_963569585_1.fasta

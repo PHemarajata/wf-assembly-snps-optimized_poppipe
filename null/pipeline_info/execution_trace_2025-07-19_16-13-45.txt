@@ -1,0 +1,2 @@
+task_id	hash	native_id	name	status	exit	submit	duration	realtime	%cpu	peak_rss	peak_vmem	rchar	wchar
+1	70/c1f1c5	1679	INFILE_HANDLING_UNIX (test_sample)	FAILED	126	2025-07-19 16:13:47.715	1.5s	1.4s	-	-	-	-	-
